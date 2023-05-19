@@ -13,13 +13,13 @@ export default function App() {
         <BrowserRouter>
           <Sidebar >
           <Routes>
-            <Route path='./createaccount' element={<CAccount/>}></Route>
-            <Route path='./myaccount' element={<MyAccount/>}></Route>
-            <Route path='./login' element={<Login/>}></Route>
+            <Route path='/createaccount' element={<CAccount/>}></Route>
+            <Route path='/myaccount' element={<MyAccount/>}></Route>
+            <Route path='/login' element={<Login/>}></Route>
             </Routes>
             <Routes>
-            <Route path='./productpage' element={<ProductPage/>}></Route>
-            <Route path='./cart' element={<Cart/>}></Route>
+            <Route path='/productpage' element={<ProductPage/>}></Route>
+            <Route path='/cart' element={<Cart/>}></Route>
           </Routes>
           </Sidebar>
         </BrowserRouter>
