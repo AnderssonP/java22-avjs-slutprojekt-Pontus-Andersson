@@ -38,27 +38,27 @@ export default function Sidebar({children}) {
   
     const menuItems = [
       {
-        path: "./myaccount",
+        path: "/myaccount",
         name: "Mitt konto",
         icon: <MdAccountCircle />,
       },
       {
-        path: "./productpage",
+        path: "/productpage",
         name: "Produkter",
         icon: <MdHome />,
       },
       {
-        path: './cart',
+        path: '/cart',
         name: `Kassa (${cartTotal})`,
         icon: <MdShoppingCart />
       },
       {
-        path: "./login",
+        path: "/login",
         name: "Logga in",
         icon: <MdLogin />,
       },
       {
-        path: "./createaccount",
+        path: "/createaccount",
         name: "Skapa konto",
         icon: <MdAccountCircle />,
       },
