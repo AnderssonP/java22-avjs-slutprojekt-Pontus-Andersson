@@ -1,11 +1,11 @@
 import '../css/style.css'
 import Sidebar from './sidebar';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import CAccount from '../pages/CreateAccount';
-import Login from '../pages/login';
-import ProductPage from '../pages/ProductPage';
-import Cart from '../pages/Cart';
-import MyAccount from '../pages/MyAccount';
+import CAccount from './pages/CreateAccount';
+import Login from './pages/login';
+import ProductPage from './pages/ProductPage';
+import Cart from './pages/Cart';
+import MyAccount from './pages/MyAccount';
 
 export default function App() {
 
